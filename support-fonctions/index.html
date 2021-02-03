@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les fonctions</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="top-buttons">
+        <div class="settings-button"></div>
+        <div class="switch-language">
+            <div class="php active">PHP</div>
+            <div class="js">JS</div>
+        </div>
+    </div>
+    <h1>Les fonctions</h1>
+    <main class="">
+        <div class="ingredient_selects animate__animated animate__slideInUp">
+            <div data-type="breads" data-slot="bread" class="select animate__animated">
+                <div class="ing_content" data-tippy-content="Choisir un pain">+</div>
+                <div class="elements animate__animated"></div>
+            </div>
+            <div data-type="ingredients" data-slot="ing1" class="select animate__animated">
+                <div class="ing_content" data-tippy-content="Choisir un ingrédient">+</div>
+                <div class="elements animate__animated"></div>
+            </div>
+            <div data-type="ingredients" data-slot="ing2" class="select animate__animated">
+                <div class="ing_content" data-tippy-content="Choisir un ingrédient">+</div>
+                <div class="elements animate__animated"></div>
+            </div>
+        </div>
+        <div class="machine">
+            <div class="capot">
+                <div class="trous animate__animated animate__fadeIn">
+                    <div class="trou"></div>
+                    <div class="trou"></div>
+                    <div class="trou"></div>
+                </div>
+                <div class="screws">
+                    <div class="vis"></div>
+                    <div class="vis"></div>
+                    <div class="vis"></div>
+                    <div class="vis"></div>
+                </div>
+                <div class="leds">
+                    <div class="led"></div>
+                    <div class="led"></div>
+                    <div class="led"></div>
+                </div>
+                <h2>Sandwich Maker 3000</h2>
+                <div class="aeration">
+                    <div class="fente"></div>
+                    <div class="fente"></div>
+                    <div class="fente"></div>
+                    <div class="fente"></div>
+                    <div class="fente"></div>
+                </div>
+            </div>
+            <div class="contenu">
+                <div class="code"></div>
+                <div class="stuck"></div>
+            </div>
+            <div class="sortie"></div>
+            <div class="levier_base"></div>
+            <div class="levier"></div>
+        </div>
+        <div class="plate_container">
+            <div class="plate">
+                <img src="./img/plate.svg" alt="Plate">
+            </div>
+        </div>
+        <div class="settings">
+            <div class="settings-container">
+                <div class="setting-element">
+                    <input type="checkbox" id="return" class="return">
+                    <label for="return">Return activé</label>
+                </div>
+                <div class="setting-element">
+                    <input type="checkbox" id="variable" class="variable">
+                    <label for="variable">Variable  activée</label>
+                </div>
+                <div class="setting-element">
+                    <input type="checkbox" id="parameter" class="parameter">
+                    <label for="parameter">Fonction paramétrable</label>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>

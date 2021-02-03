@@ -1,0 +1,18 @@
+<svg width="111.19" height="71.82" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style>.cls-1{fill:#6e6e6d;stroke:#383838;stroke-linecap:round;}.cls-1,.cls-2{stroke-miterlimit:10;stroke-width:13px;}.cls-2{fill:#e73929;stroke:#e52120;}</style>
+ </defs>
+ <title>Fichier 1</title>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="73.82" width="113.19" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="Calque_2">
+   <g id="Calque_7">
+    <path id="svg_1" d="m103.23634,65.22906c-0.39,-27.84 -21.5,-50.32 -47.51,-50.32s-47.09,22.48 -47.5,50.32l95.01,0z" class="cls-1"/>
+   </g>
+  </g>
+ </g>
+</svg>
