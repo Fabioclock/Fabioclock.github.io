@@ -23,7 +23,7 @@ const handlers = {
         sandwich.wipe();
         setTimeout(() => {
             sandwich.make();
-        }, 500);
+        }, 600);
     },
     handleScrews: function(event) {
         if(app.lid.classList.contains('removed')){

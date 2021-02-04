@@ -104,7 +104,7 @@ const sandwich = {
 
         const stuckSandwich = document.querySelector('.stuck .sandwich');
         if(stuckSandwich) {
-            app.punctualClass(stuckSandwich, 'animate__bounceOutRight');
+            app.punctualClass(stuckSandwich, 'animate__bounceOut');
             setTimeout(() => {
                 stuckSandwich.remove();
             }, 500);
